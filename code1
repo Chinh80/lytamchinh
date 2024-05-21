@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Mạnh Chính - Chuyên gia Tâm lý</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #005bb5;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #about, #services, #contact {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Lê Mạnh Chính</h1>
+        <p>Chuyên gia Tâm lý & Tư vấn</p>
+    </div>
+</header>
+
+<nav>
+    <div class="container">
+        <a href="#about">Tiểu sử</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#contact">Liên hệ</a>
+    </div>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>Tiểu sử</h2>
+        <p>Xin chào, tôi là Lê Mạnh Chính, một chuyên gia tâm lý với nhiều năm kinh nghiệm trong lĩnh vực tư vấn tâm lý cho thanh thiếu niên và người trưởng thành từ 14 đến 35 tuổi. Tôi đã học tập và làm việc ở nhiều nơi, cả trong nước và quốc tế, và đã giúp nhiều khách hàng đạt được cuộc sống hạnh phúc hơn.</p>
+    </section>
+
+    <section id="services">
+        <h2>Dịch vụ cung cấp</h2>
+        <ul>
+            <li>Tư vấn tâm lý trực tiếp</li>
+            <li>Tư vấn tâm lý qua mạng</li>
+            <li>Hỗ trợ tâm lý cho thanh thiếu niên</li>
+            <li>Phát triển cá nhân và kỹ năng sống</li>
+            <li>Tư vấn tâm lý gia đình và hôn nhân</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <p>Để biết thêm thông tin chi tiết hoặc đặt lịch hẹn, vui lòng liên hệ qua:</p>
+        <p>Email: <a href="mailto:lemanhchinh@example.com">lemanhchinh@example.com</a></p>
+        <p>Điện thoại: +84 123 456 789</p>
+        <p>Theo dõi tôi trên các mạng xã hội:</p>
+        <p>
+            <a href="https://www.facebook.com/lemanhchinh" target="_blank">Facebook</a> | 
+            <a href="https://www.linkedin.com/in/lemanhchinh" target="_blank">LinkedIn</a>
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>Lê Mạnh Chính &copy; 2024</p>
+</footer>
+
+</body>
+</html>
